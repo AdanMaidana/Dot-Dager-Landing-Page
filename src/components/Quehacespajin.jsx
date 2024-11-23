@@ -17,37 +17,37 @@ export default function Quehacespajin() {
     const audio = new Audio('/vineboom.m4a'); //se carga el archivo de audio
 
     if (counter === 0) {
-      setImageSrc("/photo-1.webp");
+      setImageSrc("/Dot-Dager-Landing-Page/photo-1.webp");
       setTextContent("Que buscabas pajin? volve a la pagina, anda dale, no se te ocurra clickear otra vez");
       audio.play(); // Reproduce el audio cuando se muestra el modal
     } else if (counter === 1) {
-      setImageSrc("/photo-5.webp");
+      setImageSrc("/Dot-Dager-Landing-Page/photo-5.webp");
       setTextContent("No sigas clickando");
       audio.play(); // Reproduce el audio cuando se muestra el modal
     } else if (counter === 2) {
       const audio = new Audio('/aww.m4a'); //se carga el archivo de audio
-      setImageSrc("/dager-gatito.webp");
+      setImageSrc("/Dot-Dager-Landing-Page/dager-gatito.webp");
       setTextContent("Aww un gatito");
       audio.play();
     } else if (counter === 3) {
-      setImageSrc("/photo-7.webp");
+      setImageSrc("/Dot-Dager-Landing-Page/photo-7.webp");
       setTextContent("Por favor, ya no sigas");
       audio.play(); // Reproduce el audio cuando se muestra el modal
     } else if (counter === 4) {
-      setImageSrc("/photo-6.webp");
+      setImageSrc("/Dot-Dager-Landing-Page/photo-6.webp");
       setTextContent("Tengo tu IP, espero que tengas un pepino cuando llegue a tu casa...");
       audio.play(); // Reproduce el audio cuando se muestra el modal
     } else if (counter === 5) {
-      setImageSrc("/dager-pepinos.webp");
+      setImageSrc("/Dot-Dager-Landing-Page/dager-pepinos.webp");
       setTextContent("SI TE VAS AHORA TE REGALOS ESTOS PEPINOS!! TOMA, ANDATE!");
       audio.play(); // Reproduce el audio cuando se muestra el modal
     } else if (counter === 6) {
-      setImageSrc("/TOP-SECRET.webp");
+      setImageSrc("/Dot-Dager-Landing-Page/TOP-SECRET.webp");
       setTextContent("Donde estara el pepino?...");
       audio.play(); // Reproduce el audio cuando se muestra el modal
     } else if (counter === 7) {
       const audio = new Audio('/win.m4a'); //se carga el archivo de audio
-      setImageSrc("/pepino-aca.webp");
+      setImageSrc("/Dot-Dager-Landing-Page/pepino-aca.webp");
       setTextContent("Lo encontramos despues de mucho trabajo 🥵🥵🥵");
       audio.play(); // Reproduce el audio cuando se muestra el modal
     }
