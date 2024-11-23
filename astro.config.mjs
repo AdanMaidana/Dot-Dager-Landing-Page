@@ -6,8 +6,8 @@ import tailwind from '@astrojs/tailwind';
 export default defineConfig({
   site: 'https://adanmaidana.github.io/Dot-Dager-Landing-Page/',
   buildOptions: {
-    site: 'https://adanmaidana.github.io/Dot-Dager-Landing-Page/', // Asegúrate de poner la URL correcta
-    base: '/Dot-Dager-Landing-Page/',  // Añades la ruta del subdirectorio de GitHub Pages
+    site: 'https://adanmaidana.github.io/Dot-Dager-Landing-Page/', 
+    base: '/Dot-Dager-Landing-Page/', 
   },
   integrations: [tailwind()]
 });
