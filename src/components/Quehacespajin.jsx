@@ -14,7 +14,7 @@ export default function Quehacespajin() {
   // Función para cambiar la imagen y el texto
   const updateImageAndText = () => {
 
-    const audio = new Audio('/vineboom.m4a'); //se carga el archivo de audio
+    const audio = new Audio('/Dot-Dager-Landing-Page/vineboom.m4a'); //se carga el archivo de audio
 
     if (counter === 0) {
       setImageSrc("/Dot-Dager-Landing-Page/photo-1.webp");
@@ -25,7 +25,7 @@ export default function Quehacespajin() {
       setTextContent("No sigas clickando");
       audio.play(); // Reproduce el audio cuando se muestra el modal
     } else if (counter === 2) {
-      const audio = new Audio('/aww.m4a'); //se carga el archivo de audio
+      const audio = new Audio('/Dot-Dager-Landing-Page/aww.m4a'); //se carga el archivo de audio
       setImageSrc("/Dot-Dager-Landing-Page/dager-gatito.webp");
       setTextContent("Aww un gatito");
       audio.play();
@@ -46,7 +46,7 @@ export default function Quehacespajin() {
       setTextContent("Donde estara el pepino?...");
       audio.play(); // Reproduce el audio cuando se muestra el modal
     } else if (counter === 7) {
-      const audio = new Audio('/win.m4a'); //se carga el archivo de audio
+      const audio = new Audio('/Dot-Dager-Landing-Page/win.m4a'); //se carga el archivo de audio
       setImageSrc("/Dot-Dager-Landing-Page/pepino-aca.webp");
       setTextContent("Lo encontramos despues de mucho trabajo 🥵🥵🥵");
       audio.play(); // Reproduce el audio cuando se muestra el modal
