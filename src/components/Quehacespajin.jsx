@@ -82,7 +82,7 @@ export default function Quehacespajin() {
 
       <div>
         <p className="text-2xl text-red-500 font-semibold mb-4">Proximamente🔥</p>
-        <div className={`flex flex-col gap-4 justify-center sm:flex-row hover:cursor-pointer transition-all duration-3000 ${counter === 8 ? 'blur-0 hover:cursor-auto' : 'blur-md'} `} onClick={() => {
+        <div className={`flex flex-col gap-4 justify-center select-none sm:flex-row hover:cursor-pointer transition-all duration-3000 ${counter === 8 ? 'blur-0 hover:cursor-auto' : 'blur-md'} `} onClick={() => {
           if (counter < 8) {
             setShowDager(!showDager)
           }
@@ -92,12 +92,14 @@ export default function Quehacespajin() {
           <img
             src="./poringa.webp"
             alt="poringa logo"
-            className="h-14 w-40 rounded-md mx-auto"
+            className="h-14 w-40 rounded-md mx-auto select-none"
+            draggable="false"
           />
           <img
             src="./onlyfans-logo.webp"
             alt="onlyfans logo"
-            className="h-14 w-40 rounded-md mx-auto bg-white object-cover"
+            className="h-14 w-40 rounded-md mx-auto bg-white object-cover select-none"
+            draggable="false"
           />
         </div>
       </div>
