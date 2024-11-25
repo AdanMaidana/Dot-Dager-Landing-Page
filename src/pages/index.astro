@@ -3,6 +3,8 @@ import Lumberjack from "../components/Lumberjack";
 import Quehacespajin from "../components/Quehacespajin";
 import Layout from "../layouts/Layout.astro";
 import { Image } from "astro:assets";
+
+import profilePicture from '../assets/images/profile-picture.webp';
 ---
 
 <Layout title="Dot Dager">
@@ -58,7 +60,7 @@ import { Image } from "astro:assets";
           data-aos="fade-down"
           data-aos-delay="1000"
           class="mx-auto mb-6 sm:w-[250px] sm:h-[250px] lg:mb-0 rounded-md border-2 border-green-400"
-          src="/profile-picture.webp"
+          src={profilePicture}
           width={200}
           height={200}
           alt="Dager profile"
