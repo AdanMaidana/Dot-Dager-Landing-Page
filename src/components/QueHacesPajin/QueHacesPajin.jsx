@@ -1,5 +1,5 @@
 import { useRef, useState, useEffect } from 'react';
-import './Quehacespajin.css';
+import './QueHacesPajin.css';
 
 export default function Quehacespajin() {
   const [showDager, setShowDager] = useState(false);
