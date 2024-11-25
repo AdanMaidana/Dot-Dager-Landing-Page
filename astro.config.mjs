@@ -9,5 +9,6 @@ export default defineConfig({
   devToolbar: {
     enabled: false
   },
+  site: 'https://adanmaidana.github.io/Dot-Dager-Landing-Page/',
   integrations: [tailwind(), react()]
 });
